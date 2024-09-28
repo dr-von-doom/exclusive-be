@@ -1,0 +1,233 @@
+{
+	"info": {
+		"_postman_id": "fdc0d829-1e11-4dca-8266-a266e27ef546",
+		"name": "Exclusive",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18306368",
+		"_collection_link": "https://solar-flare-136484.postman.co/workspace/Team-Workspace~76b498f6-e2da-4ea5-8bf6-0678af93d447/collection/18306368-fdc0d829-1e11-4dca-8266-a266e27ef546?action=share&source=collection_link&creator=18306368"
+	},
+	"item": [
+		{
+			"name": "Get all products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/products?specs.brand=Nikon",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"products"
+					],
+					"query": [
+						{
+							"key": "categoryId",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "_page",
+							"value": "2",
+							"disabled": true
+						},
+						{
+							"key": "_per_page",
+							"value": "5",
+							"disabled": true
+						},
+						{
+							"key": "_sort",
+							"value": "price",
+							"disabled": true
+						},
+						{
+							"key": "_order",
+							"value": "desc",
+							"disabled": true
+						},
+						{
+							"key": "specs.brand",
+							"value": "Nikon"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get product by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/products/:productId",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"products",
+						":productId"
+					],
+					"variable": [
+						{
+							"key": "productId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all category groups",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/category_groups",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"category_groups"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get category group by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/category_groups/:categoryGroupId",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"category_groups",
+						":categoryGroupId"
+					],
+					"variable": [
+						{
+							"key": "categoryGroupId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all categories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/categories?groupId=1",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"categories"
+					],
+					"query": [
+						{
+							"key": "groupId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get category by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/categories/:categoryId",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"categories",
+						":categoryId"
+					],
+					"variable": [
+						{
+							"key": "categoryId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all filters",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/filters?categoryId=1",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"filters"
+					],
+					"query": [
+						{
+							"key": "categoryId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get promotional Imanges",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/promotional_imanges",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"promotional_imanges"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

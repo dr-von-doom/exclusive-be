@@ -2,104 +2,121 @@
   {
     "id": 1,
     "groupId": 1,
-    "name": "Computers",
+    "name": "computers",
+    "displayName": "Computers",
     "description": "Explore top-tier computers designed for performance, innovation, and reliability. Find your perfect match today",
     "imageUrl": "assets/images/category-banner-1.png"
   },
   {
     "id": 2,
     "groupId": 1,
-    "name": "Televisions",
+    "name": "televisions",
+    "displayName": "Televisions",
     "description": "Experience the next level of picture quality and entertainment with our range of televisions"
   },
   {
     "id": 3,
     "groupId": 1,
-    "name": "Audio",
+    "name": "audio",
+    "displayName": "Audio",
     "description": "Discover the best audio experience with our range of audio products"
   },
   {
     "id": 4,
     "groupId": 1,
-    "name": "Video",
+    "name": "video",
+    "displayName": "Video",
     "description": "Experience the next level of video quality and entertainment with our range of video products"
   },
   {
     "id": 5,
     "groupId": 1,
-    "name": "Printing",
+    "name": "printing",
+    "displayName": "Printing",
     "description": "Explore top-tier printing products designed for performance, innovation, and reliability. Find your perfect match today"
   },
   {
     "id": 6,
     "groupId": 1,
-    "name": "Cameras",
+    "name": "camera",
+    "displayName": "Camera",
     "description": "Discover the best camera experience with our range of camera products"
   },
   {
     "id": 7,
     "groupId": 2,
-    "name": "Air Conditioners",
+    "name": "air-conditioners",
+    "displayName": "Air Conditioners",
     "description": "Experience the next level of cooling and comfort with our range of air conditioners"
   },
   {
     "id": 8,
     "groupId": 2,
-    "name": "Refrigerators",
+    "name": "refrigerators",
+    "displayName": "Refrigerators",
     "description": "Discover the best refrigeration experience with our range of refrigerators"
   },
   {
     "id": 9,
     "groupId": 2,
-    "name": "Washing Machines",
+    "name": "washing-machines",
+    "displayName": "Washing Machines",
     "description": "Explore top-tier washing machines designed for performance, innovation, and reliability. Find your perfect match today"
   },
   {
     "id": 10,
     "groupId": 2,
-    "name": "Machine-Dryers",
+    "name": "machine-dryers",
+    "displayName": "Machine Dryers",
     "description": "Experience the next level of drying and comfort with our range of Machine-Dryers"
   },
   {
     "id": 11,
     "groupId": 3,
-    "name": "Mobile Phones",
+    "name": "mobile-phones",
+    "displayName": "Mobile Phones",
     "description": "Discover the best mobile phone experience with our range of mobile phones"
   },
   {
     "id": 12,
     "groupId": 3,
-    "name": "Tablets",
+    "name": "tablets",
+    "displayName": "Tablets",
     "description": "Explore top-tier tablets designed for performance, innovation, and reliability. Find your perfect match today"
   },
   {
     "id": 13,
     "groupId": 3,
-    "name": "Smart Watches",
+    "name": "smart-watches",
+    "displayName": "Smart Watches",
     "description": "Experience the next level of smart watch experience with our range of smart watches"
   },
   {
     "id": 14,
     "groupId": 4,
-    "name": "Living Room",
+    "name": "living-room",
+    "displayName": "Living Room",
     "description": "Discover the best living room experience with our range of living room products"
   },
   {
     "id": 15,
     "groupId": 4,
-    "name": "Dining Room",
+    "name": "dining-room",
+    "displayName": "Dining Room",
     "description": "Explore top-tier dining room products designed for performance, innovation, and reliability. Find your perfect match today"
   },
   {
     "id": 16,
     "groupId": 4,
-    "name": "Kitchen",
+    "name": "kitchen",
+    "displayName": "Kitchen",
     "description": "Experience the next level of kitchen experience with our range of kitchen products"
   },
   {
     "id": 17,
     "groupId": 4,
-    "name": "Bathroom",
+    "name": "bathroom",
+    "displayName": "Bathroom",
     "description": "Discover the best bathroom experience with our range of bathroom products"
   }
 ]

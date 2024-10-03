@@ -70,6 +70,29 @@ server.get("/products/paginated", (req, res) => {
   });
 });
 
+server.get("/products/featured", (req, res) => {
+  let products = router.db.get("products").value();
+
+  const { categoryId, limit = 12 } = req.query;
+
+  if (categoryId) {
+    if (categoryId instanceof Array)
+      products = products.filter((product) =>
+        categoryId.includes(product.categoryId.toString())
+      );
+    else
+      products = products.filter((product) => product.categoryId == categoryId);
+  }
+
+  products = _.orderBy(
+    products,
+    ["rating", "totalRatings"],
+    ["desc", "desc"]
+  ).slice(0, limit);
+
+  res.json(products);
+});
+
 server.use(router);
 
 server.listen(port, () => {
